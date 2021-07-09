@@ -12,9 +12,9 @@ namespace dotNETGoofV2.Website
         {
             ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls;
             string password = "ioefiuhsf8791234n";
-            var entry = entriesEnumerator.Current;
-            var path = Path.Combine(directory, entry.FullName);
-            entry.ExtractToFile(path);
+            var currentEntry = entriesEnumerator.Current;
+            var filePath = Path.Combine(directory, currentEntry.FullName);
+            currentEntry.ExtractToFile(filePath);
         }
     }
 }
