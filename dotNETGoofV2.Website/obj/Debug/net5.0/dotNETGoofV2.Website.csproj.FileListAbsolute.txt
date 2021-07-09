@@ -157,3 +157,5 @@
 /Users/mattbrown/Desktop/SME_Work/dotNETGoofV2/dotNETGoofV2.Website/obj/Debug/net5.0/dotNETGoofV2.Website.RazorComponent.output.cache
 /Users/mattbrown/Desktop/SME_Work/dotNETGoofV2/dotNETGoofV2.Website/obj/Debug/net5.0/RazorDeclaration/dotNETGoofV2.Website.dll
 /Users/mattbrown/Desktop/SME_Work/dotNETGoofV2/dotNETGoofV2.Website/obj/Debug/net5.0/Razor/Components/ProductList.razor.g.cs
+/Users/mattbrown/Desktop/SME_Work/dotNETGoofV2/dotNETGoofV2.Website/bin/Debug/net5.0/Microsoft.Owin.dll
+/Users/mattbrown/Desktop/SME_Work/dotNETGoofV2/dotNETGoofV2.Website/bin/Debug/net5.0/Owin.dll

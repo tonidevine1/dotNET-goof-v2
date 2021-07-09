@@ -47,6 +47,8 @@ namespace dotNETGoofV2.Website
                 app.UseHsts();
             }
 
+            string password = "ioefiuhsf8791234n";
+
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
@@ -59,13 +61,13 @@ namespace dotNETGoofV2.Website
                 endpoints.MapRazorPages();
                 endpoints.MapControllers();
                 endpoints.MapBlazorHub();
-                //endpoints.MapGet("/products", (context) =>
-                //{
+                endpoints.MapGet("/products", (context) =>
+                {
                     //Manually getting products - use for XSS example?
-                    //var products = app.ApplicationServices.GetService<JsonFileProductsService>().GetProducts();
-                    //var json = JsonSerializer.Serialize<IEnumerable<Product>>(products);
-                    //return context.Response.WriteAsync(json);
-                //});
+                    var products = app.ApplicationServices.GetService<JsonFileProductsService>().GetProducts();
+                    var json = JsonSerializer.Serialize<IEnumerable<Product>>(products);
+                    return context.Response.WriteAsync(json);
+                });
             });
         }
     }
