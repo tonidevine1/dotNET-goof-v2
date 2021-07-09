@@ -1,0 +1,45 @@
+﻿<Properties StartupConfiguration="{E7BD124D-7208-4FCD-97C6-A8BAED038A21}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="dotNETGoofV2.Website/wwwroot/data/goof-data.json">
+    <Files>
+      <File FileName="dotNETGoofV2.Website/Models/Product.cs" Line="10" Column="34" />
+      <File FileName="dotNETGoofV2.Website/Services/JsonFileProductsService.cs" Line="70" Column="1" />
+      <File FileName="dotNETGoofV2.Website/Program.cs" />
+      <File FileName="dotNETGoofV2.Website/Startup.cs" Line="56" Column="42" />
+      <File FileName="dotNETGoofV2.Website/Pages/Index.cshtml" />
+      <File FileName="dotNETGoofV2.Website/Pages/Index.cshtml.cs" Line="27" Column="23" />
+      <File FileName="dotNETGoofV2.Website/wwwroot/css/site.css" />
+      <File FileName="dotNETGoofV2.Website/Pages/Shared/_Layout.cshtml" />
+      <File FileName="dotNETGoofV2.Website/Pages/Privacy.cshtml" Line="1" Column="1" />
+      <File FileName="dotNETGoofV2.Website/Controllers/ProductsController.cs" Line="19" Column="52" />
+      <File FileName="dotNETGoofV2.Website/wwwroot/data/goof-data.json" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="dotNETGoofV2" expanded="True">
+            <Node name="dotNETGoofV2.Website" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="Index.cshtml" expanded="True" />
+              </Node>
+              <Node name="Services" expanded="True" />
+              <Node name="wwwroot" expanded="True">
+                <Node name="data" expanded="True">
+                  <Node name="goof-data.json" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.dotNETGoofV2.Website PreferredExecutionTarget="/Applications/Brave Browser.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
