@@ -13,6 +13,7 @@ namespace dotNETGoofV2.Website.Controllers
     [ApiController]
     public class ProductsController : ControllerBase
     {
+        string superSecretKey = "ioefiuhsf8791234n";
 
         public ProductsController(JsonFileProductsService productsService)
         {
