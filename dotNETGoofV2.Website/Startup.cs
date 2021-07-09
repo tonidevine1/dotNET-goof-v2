@@ -28,6 +28,7 @@ namespace dotNETGoofV2.Website
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+            services.AddServerSideBlazor();
             services.AddControllers();
             services.AddTransient<JsonFileProductsService>();
         }
@@ -57,9 +58,10 @@ namespace dotNETGoofV2.Website
             {
                 endpoints.MapRazorPages();
                 endpoints.MapControllers();
+                endpoints.MapBlazorHub();
                 //endpoints.MapGet("/products", (context) =>
                 //{
-                    //Manually getting products
+                    //Manually getting products - use for XSS example?
                     //var products = app.ApplicationServices.GetService<JsonFileProductsService>().GetProducts();
                     //var json = JsonSerializer.Serialize<IEnumerable<Product>>(products);
                     //return context.Response.WriteAsync(json);

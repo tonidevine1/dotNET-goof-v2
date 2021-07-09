@@ -152,3 +152,8 @@
 /Users/mattbrown/Desktop/SME_Work/dotNETGoofV2/dotNETGoofV2.Website/obj/Debug/net5.0/ref/dotNETGoofV2.Website.dll
 /Users/mattbrown/Desktop/SME_Work/dotNETGoofV2/dotNETGoofV2.Website/obj/Debug/net5.0/dotNETGoofV2.Website.pdb
 /Users/mattbrown/Desktop/SME_Work/dotNETGoofV2/dotNETGoofV2.Website/obj/Debug/net5.0/dotNETGoofV2.Website.genruntimeconfig.cache
+/Users/mattbrown/Desktop/SME_Work/dotNETGoofV2/dotNETGoofV2.Website/obj/Debug/net5.0/dotNETGoofV2.Website.RazorComponent.input.cache
+/Users/mattbrown/Desktop/SME_Work/dotNETGoofV2/dotNETGoofV2.Website/obj/Debug/net5.0/RazorDeclaration/Components/ProductList.razor.g.cs
+/Users/mattbrown/Desktop/SME_Work/dotNETGoofV2/dotNETGoofV2.Website/obj/Debug/net5.0/dotNETGoofV2.Website.RazorComponent.output.cache
+/Users/mattbrown/Desktop/SME_Work/dotNETGoofV2/dotNETGoofV2.Website/obj/Debug/net5.0/RazorDeclaration/dotNETGoofV2.Website.dll
+/Users/mattbrown/Desktop/SME_Work/dotNETGoofV2/dotNETGoofV2.Website/obj/Debug/net5.0/Razor/Components/ProductList.razor.g.cs
