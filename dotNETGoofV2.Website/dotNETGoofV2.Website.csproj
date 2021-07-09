@@ -15,8 +15,12 @@
     <None Remove="Controllers\" />
     <None Remove="Microsoft.VisualStudio.Web.CodeGeneration.Design" />
     <None Remove="Components\" />
+    <None Remove="Microsoft.AspNet.SignalR" />
+    <None Remove="Microsoft.Owin" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+    <PackageReference Include="Microsoft.AspNet.SignalR" Version="2.4.2" />
+    <PackageReference Include="Microsoft.Owin" Version="3.0.0" />
   </ItemGroup>
 </Project>
