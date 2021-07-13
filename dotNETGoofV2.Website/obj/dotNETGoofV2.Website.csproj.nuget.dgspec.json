@@ -14,7 +14,7 @@
         "outputPath": "/Users/mattbrown/Desktop/SME_Work/dotNETGoofV2/dotNETGoofV2.Website/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/mattbrown/.config/NuGet/NuGet.Config"
+          "/Users/mattbrown/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"

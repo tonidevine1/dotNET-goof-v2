@@ -11,7 +11,6 @@ namespace dotNETGoofV2.Website
         public void ExtractEntry(IEnumerator<ZipArchiveEntry> entriesEnumerator, string directory)
         {
             ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls;
-            string password = "ioefiuhsf8791234n";
             var currentEntry = entriesEnumerator.Current;
             var filePath = Path.Combine(directory, currentEntry.FullName);
             currentEntry.ExtractToFile(filePath);

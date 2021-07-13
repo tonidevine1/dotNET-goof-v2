@@ -6,7 +6,12 @@
     "Url": "https://snyk.io/product/open-source-security-management/",
     "Title": "Snyk Open Source",
     "Description": "Automatically detect vulnerabilities and accelerate fixing throughout your development process",
-    "Ratings": null
+    "Ratings": [
+      0,
+      0,
+      0,
+      0
+    ]
   },
   {
     "Id": "snyk-code",
