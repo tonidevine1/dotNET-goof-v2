@@ -47,7 +47,7 @@ namespace dotNETGoofV2.Website
                 app.UseHsts();
             }
 
-            string password = "ioefiuhsf8791234n";
+            
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();

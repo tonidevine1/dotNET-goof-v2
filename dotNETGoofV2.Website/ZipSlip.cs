@@ -14,6 +14,8 @@ namespace dotNETGoofV2.Website
             var currentEntry = entriesEnumerator.Current;
             var filePath = Path.Combine(directory, currentEntry.FullName);
             currentEntry.ExtractToFile(filePath);
+            
+            string password = "ioefiuhsf8791234n";
         }
     }
 }
