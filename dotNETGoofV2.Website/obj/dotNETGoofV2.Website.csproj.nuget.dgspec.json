@@ -60,7 +60,7 @@
             },
             "System.Text.Encodings.Web": {
               "target": "Package",
-              "version": "[4.5.0, )"
+              "version": "[4.5.1, )"
             },
             "TinyMCE": {
               "target": "Package",

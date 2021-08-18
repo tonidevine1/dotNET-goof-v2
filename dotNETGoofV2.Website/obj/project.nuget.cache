@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "/bWMYlbmIrHvjphCOzK7LeSr9GWhSDh4uMFJGA4n+XtDQ9CJ23CppZw7uMogMNM7NzwkU13GnSkUdKfeDK4PiQ==",
+  "dgSpecHash": "DFUy3dAgvI+LJ0hiLQlgnWpWLPxUT/+FzJpXkA2vwFFwMxIur20tC5kJSZg+9tflYrP9+2iaFIsdRecS7qgwow==",
   "success": true,
   "projectFilePath": "/Users/mattbrown/Desktop/SME_Work/dotNETGoofV2/dotNETGoofV2.Website/dotNETGoofV2.Website.csproj",
   "expectedPackageFiles": [
@@ -109,7 +109,7 @@
     "/Users/mattbrown/.nuget/packages/system.text.encoding/4.3.0/system.text.encoding.4.3.0.nupkg.sha512",
     "/Users/mattbrown/.nuget/packages/system.text.encoding.codepages/4.5.1/system.text.encoding.codepages.4.5.1.nupkg.sha512",
     "/Users/mattbrown/.nuget/packages/system.text.encoding.extensions/4.3.0/system.text.encoding.extensions.4.3.0.nupkg.sha512",
-    "/Users/mattbrown/.nuget/packages/system.text.encodings.web/4.5.0/system.text.encodings.web.4.5.0.nupkg.sha512",
+    "/Users/mattbrown/.nuget/packages/system.text.encodings.web/4.5.1/system.text.encodings.web.4.5.1.nupkg.sha512",
     "/Users/mattbrown/.nuget/packages/system.text.regularexpressions/4.3.0/system.text.regularexpressions.4.3.0.nupkg.sha512",
     "/Users/mattbrown/.nuget/packages/system.threading/4.3.0/system.threading.4.3.0.nupkg.sha512",
     "/Users/mattbrown/.nuget/packages/system.threading.tasks/4.3.0/system.threading.tasks.4.3.0.nupkg.sha512",
