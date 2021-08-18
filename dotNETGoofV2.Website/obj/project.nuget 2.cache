@@ -1,11 +1,9 @@
 {
   "version": 2,
-  "dgSpecHash": "/bWMYlbmIrHvjphCOzK7LeSr9GWhSDh4uMFJGA4n+XtDQ9CJ23CppZw7uMogMNM7NzwkU13GnSkUdKfeDK4PiQ==",
+  "dgSpecHash": "ws3ClB284RfIqO6N6Vl1bV1oI5t+zlCSHGhHEfAxtTB+HFNZYODaHM/5o3NV7qFGYwgVI7WFeY92xBaobDOLHA==",
   "success": true,
   "projectFilePath": "/Users/mattbrown/Desktop/SME_Work/dotNETGoofV2/dotNETGoofV2.Website/dotNETGoofV2.Website.csproj",
   "expectedPackageFiles": [
-    "/Users/mattbrown/.nuget/packages/ejs/1.0.0/ejs.1.0.0.nupkg.sha512",
-    "/Users/mattbrown/.nuget/packages/handlebars.net/1.0.0-alpha2/handlebars.net.1.0.0-alpha2.nupkg.sha512",
     "/Users/mattbrown/.nuget/packages/humanizer.core/2.2.0/humanizer.core.2.2.0.nupkg.sha512",
     "/Users/mattbrown/.nuget/packages/microsoft.aspnet.signalr/2.4.2/microsoft.aspnet.signalr.2.4.2.nupkg.sha512",
     "/Users/mattbrown/.nuget/packages/microsoft.aspnetcore.html.abstractions/2.2.0/microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
@@ -121,16 +119,6 @@
     "/Users/mattbrown/.nuget/packages/wire/1.0.0/wire.1.0.0.nupkg.sha512"
   ],
   "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Handlebars.Net 1.0.0-alpha2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
-      "libraryId": "Handlebars.Net",
-      "targetGraphs": [
-        "net5.0"
-      ]
-    },
     {
       "code": "NU1701",
       "level": "Warning",

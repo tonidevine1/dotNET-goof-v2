@@ -36,6 +36,9 @@
           "Microsoft.AspNet.SignalR": "2.4.2",
           "Microsoft.Owin": "3.0.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "5.0.2",
+          "System.Text.Encodings.Web": "4.5.0",
+          "TinyMCE": "4.8.2",
+          "Wire": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "5.0.0.0",
@@ -1593,6 +1596,18 @@
           "System.Text.Encoding": "4.3.0",
           "System.Threading": "4.3.0",
           "System.Xml.ReaderWriter": "4.3.0"
+        }
+      },
+      "TinyMCE/4.8.2": {},
+      "Wire/1.0.0": {
+        "runtime": {
+          "lib/netcoreapp3.1/Wire.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Wire.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
@@ -4077,6 +4092,20 @@
       "sha512": "sha512-5zJ0XDxAIg8iy+t4aMnQAu0MqVbqyvfoUVl1yDV61xdo3Vth45oA2FoY4pPkxYAH5f8ixpmTqXeEIya95x0aCQ==",
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
+    },
+    "TinyMCE/4.8.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-46ikklPp0z0fXrhMmNXyyqWkJwdmZ6K33Tqm4bnlJiHhaxjvfvISghNXRccrQxsIlkQfBKZRB8/oWMLLVRKDeg==",
+      "path": "tinymce/4.8.2",
+      "hashPath": "tinymce.4.8.2.nupkg.sha512"
+    },
+    "Wire/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/2Rds0GFVKK3LZm2QOpBba0Lv/a6HAxBR7ACjhYJRCFfE2q4ORZqMeZ4lr+Ue0h/iAIv4lLUnfoArjkGp45bxA==",
+      "path": "wire/1.0.0",
+      "hashPath": "wire.1.0.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
       "type": "referenceassembly",

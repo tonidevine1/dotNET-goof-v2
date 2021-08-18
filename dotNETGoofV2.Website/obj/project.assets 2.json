@@ -2,18 +2,6 @@
   "version": 3,
   "targets": {
     "net5.0": {
-      "EJS/1.0.0": {
-        "type": "package"
-      },
-      "Handlebars.Net/1.0.0-alpha2": {
-        "type": "package",
-        "compile": {
-          "lib/Handlebars.dll": {}
-        },
-        "runtime": {
-          "lib/Handlebars.dll": {}
-        }
-      },
       "Humanizer.Core/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -1870,32 +1858,6 @@
     }
   },
   "libraries": {
-    "EJS/1.0.0": {
-      "sha512": "cRpfDd/FfesbTg9LuOBboN/SJCgPvFuG89ZFdxlJU4PHMfPuOplz4tZH1K0HDBhTZtPvP/SUOBU1fTxlEkr71A==",
-      "type": "package",
-      "path": "ejs/1.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Content/scripts/ejs.min.js",
-        "Content/scripts/ejs.viewHelpers.js",
-        "Package.nuspec~",
-        "ejs.1.0.0.nupkg.sha512",
-        "ejs.nuspec"
-      ]
-    },
-    "Handlebars.Net/1.0.0-alpha2": {
-      "sha512": "8BXD3eqGo2d8c7WRmjVRzfG7RY1/Z3+F5x+wscH/2DAgQk8syh0Mx5ApdRqYncnlW3xpR4yLI3014vHqyuLyWA==",
-      "type": "package",
-      "path": "handlebars.net/1.0.0-alpha2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "handlebars.net.1.0.0-alpha2.nupkg.sha512",
-        "handlebars.net.nuspec",
-        "lib/Handlebars.dll"
-      ]
-    },
     "Humanizer.Core/2.2.0": {
       "sha512": "rsYXB7+iUPP8AHgQ8JP2UZI2xK2KhjcdGr9E6zX3CsZaTLCaw8M35vaAJRo1rfxeaZEVMuXeaquLVCkZ7JcZ5Q==",
       "type": "package",
@@ -6511,8 +6473,6 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "EJS >= 1.0.0",
-      "Handlebars.Net >= 1.0.0-alpha2",
       "Microsoft.AspNet.SignalR >= 2.4.2",
       "Microsoft.Owin >= 3.0.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 5.0.2",
@@ -6558,14 +6518,6 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
-          "EJS": {
-            "target": "Package",
-            "version": "[1.0.0, )"
-          },
-          "Handlebars.Net": {
-            "target": "Package",
-            "version": "[1.0.0-alpha2, )"
-          },
           "Microsoft.AspNet.SignalR": {
             "target": "Package",
             "version": "[2.4.2, )"
@@ -6614,16 +6566,6 @@
     }
   },
   "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Handlebars.Net 1.0.0-alpha2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
-      "libraryId": "Handlebars.Net",
-      "targetGraphs": [
-        "net5.0"
-      ]
-    },
     {
       "code": "NU1701",
       "level": "Warning",

@@ -2,16 +2,15 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="dotNETGoofV2.Website/appsettings.json">
     <Files>
       <File FileName="dotNETGoofV2.Website/Models/Product.cs" Line="5" Column="38" />
-      <File FileName="dotNETGoofV2.Website/Services/JsonFileProductsService.cs" Line="43" Column="64" />
-      <File FileName="dotNETGoofV2.Website/Program.cs" Line="1" Column="1" />
-      <File FileName="dotNETGoofV2.Website/Startup.cs" Line="50" Column="13" />
-      <File FileName="dotNETGoofV2.Website/Pages/Index.cshtml" Line="15" Column="53" />
-      <File FileName="dotNETGoofV2.Website/Components/ProductList.razor" Line="91" Column="1" />
-      <File FileName="dotNETGoofV2.Website/Pages/Index.cshtml.cs" Line="7" Column="32" />
-      <File FileName="dotNETGoofV2.Website/wwwroot/data/goof-data.json" Line="65" Column="2" />
-      <File FileName="dotNETGoofV2.Website/Controllers/ProductsController.cs" Line="38" Column="30" />
-      <File FileName="dotNETGoofV2.Website/appsettings.Development.json" Line="1" Column="1" />
-      <File FileName="dotNETGoofV2.Website/Vulns.cs" Line="18" Column="6" />
+      <File FileName="dotNETGoofV2.Website/Services/JsonFileProductsService.cs" />
+      <File FileName="dotNETGoofV2.Website/Program.cs" />
+      <File FileName="dotNETGoofV2.Website/Startup.cs" />
+      <File FileName="dotNETGoofV2.Website/Pages/Index.cshtml" />
+      <File FileName="dotNETGoofV2.Website/Components/ProductList.razor" />
+      <File FileName="dotNETGoofV2.Website/Pages/Index.cshtml.cs" />
+      <File FileName="dotNETGoofV2.Website/wwwroot/data/goof-data.json" />
+      <File FileName="dotNETGoofV2.Website/Controllers/ProductsController.cs" />
+      <File FileName="dotNETGoofV2.Website/appsettings.Development.json" />
       <File FileName="dotNETGoofV2.Website/appsettings.json" Line="1" Column="1" />
     </Files>
     <Pads>
@@ -21,10 +20,12 @@
             <Node name="dotNETGoofV2.Website" expanded="True">
               <Node name="Dependencies" expanded="True">
                 <Node name="FrameworkReferences" expanded="True" />
-                <Node name="PackageDependencies" expanded="True" />
+                <Node name="PackageDependencies" expanded="True">
+                  <Node name="System.Text.Encodings.Web" selected="True" />
+                </Node>
               </Node>
               <Node name="Components" expanded="True" />
-              <Node name="Controllers" expanded="True" selected="True" />
+              <Node name="Controllers" expanded="True" />
               <Node name="Models" expanded="True" />
               <Node name="Pages" expanded="True" />
               <Node name="Properties" expanded="True" />

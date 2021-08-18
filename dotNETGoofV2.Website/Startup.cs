@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Text.Json;
 using System.Threading.Tasks;
 using dotNetGoofV2.Website.Models;
@@ -63,6 +64,7 @@ namespace dotNETGoofV2.Website
                 endpoints.MapBlazorHub();
                 endpoints.MapGet("/products", (context) =>
                 {
+                    ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls;
                     //Manually getting products - use for XSS example?
                     var products = app.ApplicationServices.GetService<JsonFileProductsService>().GetProducts();
                     var json = JsonSerializer.Serialize<IEnumerable<Product>>(products);

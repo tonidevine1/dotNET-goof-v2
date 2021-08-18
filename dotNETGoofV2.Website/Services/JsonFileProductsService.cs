@@ -40,7 +40,8 @@ namespace dotNETGoofV2.Website.Services
             var products = GetProducts();
             //LINQ
             //This is the correct way:
-            var query = products.First(x => x.Id == productId);
+            var enumerable = products as Product[] ?? products.ToArray();
+            var query = enumerable.First(x => x.Id == productId);
             //Need to add a SQL injection vuln of the above statement
             if (query.Ratings == null)
             {
@@ -61,7 +62,7 @@ namespace dotNETGoofV2.Website.Services
                         SkipValidation = true,
                         Indented = true
                     }),
-                    products
+                    enumerable
                 );
             }
         }

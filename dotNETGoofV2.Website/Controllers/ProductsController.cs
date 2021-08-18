@@ -38,6 +38,5 @@ namespace dotNETGoofV2.Website.Controllers
             ProductsService.AddRating(ProductId, Rating);
             return Ok();
         }
-
     }
 }

@@ -159,3 +159,4 @@
 /Users/mattbrown/Desktop/SME_Work/dotNETGoofV2/dotNETGoofV2.Website/obj/Debug/net5.0/Razor/Components/ProductList.razor.g.cs
 /Users/mattbrown/Desktop/SME_Work/dotNETGoofV2/dotNETGoofV2.Website/bin/Debug/net5.0/Microsoft.Owin.dll
 /Users/mattbrown/Desktop/SME_Work/dotNETGoofV2/dotNETGoofV2.Website/bin/Debug/net5.0/Owin.dll
+/Users/mattbrown/Desktop/SME_Work/dotNETGoofV2/dotNETGoofV2.Website/bin/Debug/net5.0/Wire.dll
